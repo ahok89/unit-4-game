@@ -8,7 +8,8 @@ var targetNumber = Math.floor(Math.random()*120)+1;
   var numberOptions = [10, 5, 3, 7];
 
   for (var i = 0; i < numberOptions.length; i++) {
-// 
+// I know from lines 10-20 makes a loop to add the same crystal simultaneously. 
+// I tried to differentiate the values with the loop and add the a unique pictures, but it is not even appearing on the .html
     var imageCrystal = $("<img>");
 
     imageCrystal.addClass("crystal-image");
